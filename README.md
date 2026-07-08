@@ -41,7 +41,7 @@ Since this project has zero external dependencies and uses pure standard Python 
 ### 1. Download the Code
 Fire up your Linux terminal or local command prompt and clone this repository:
 ```bash
-git clone https://github.com
+git clone https://github.com/CyrusIsaac/cipher-toolkit
 ```
 
 ### 2. Step Into the Folder
