@@ -15,17 +15,13 @@ def main():
     
     choice = input("Choose Encryption Type: ")
     
-    # Agar user 6 select kare toh furan exit ho jaye
+    
     if choice == "6":
         print("Goodbye!")
         return
-        
-    # Agar choice 1 se 5 ke darmiyan nahi hai toh invalid choice de
     if choice not in ["1", "2", "3", "4", "5"]:
         print("Invalid choice!")
         return
-
-    # Sahi choice par hi text input mange ga
     text = input("\nEnter the text to encrypt: ")
     secret_message = ""
     
